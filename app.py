@@ -86,7 +86,6 @@ def get_grt_info():
         data = "response error"
     return data
 
-
 def get_kudup(uevcb_id: int, org_id: int, start_date: date, end_date: date):
     response = requests.post(
         f"{main_url}/v1/generation/data/sbfgp",
